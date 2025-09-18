@@ -37,8 +37,8 @@ function App() {
         <CartProvider>
 
           <Routes>
-            <Route path='/' element={<Frontpage />} />
-            {/* <Route path='/Shope' element={<Products />} />
+            <Route path='/' element={<Home />} />
+            <Route path='/Shope' element={<Products />} />
             <Route path='/SignUp' element={<SignUp />} />
             <Route path='/LogIn' element={<LogIn />} />
             <Route path='/Frontpage' element={<Frontpage />} />
@@ -59,7 +59,7 @@ function App() {
             <Route path='/Analytics' element={<Analytics />} />
             <Route path='/Notifications' element={<Notifications />} />
             <Route path='/Settings' element={<Settings />} />
-            <Route path='/edit' element={<EditProducts />} /> */}
+            <Route path='/edit' element={<EditProducts />} />
 
 
 
