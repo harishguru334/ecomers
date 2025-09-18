@@ -98,9 +98,9 @@ function EditProducts() {
 
 
                     <div style={{ display: "flex", justifyContent: "space-between" }}>
-                        <button type="button" onClick={() => setShowPopup(false)}>
+                        {/* <button type="button" onClick={() => setShowPopup(false)}>
                             Cancel
-                        </button>
+                        </button> */}
                         <button type="submit">Update</button>
                     </div>
 
